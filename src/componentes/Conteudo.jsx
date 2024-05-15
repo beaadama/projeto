@@ -15,6 +15,7 @@ export function Conteudo(){
             /* .then(dados => console.log(dados.results) ) */ 
             .then(dados => setFilmes( dados.results ))
     },[]);
+    
 
     return(
         <main className={estilos.conteiner}>

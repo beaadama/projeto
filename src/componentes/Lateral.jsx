@@ -1,5 +1,5 @@
 import estilos from './Lateral.module.css'
-import {Gear, FilmSlate} from '@phosphor-icons/react'
+import {Gear, FilmSlate, Trophy} from '@phosphor-icons/react'
 import {Link} from 'react-router-dom'
 
 export function Lateral(){
@@ -23,6 +23,16 @@ export function Lateral(){
                     <strong>Filmes</strong>
                 </Link>
 
+                <Link
+                    className={ estilos.botao }
+                    to='perfil'
+                >
+                    <Trophy size={20} />
+                    <strong>Ganhadores</strong>
+                    
+                
+                </Link>
+
                 <Link 
                     className={ estilos.botao }
                     to='perfil'
@@ -30,6 +40,7 @@ export function Lateral(){
                     <Gear size={20} />
                     <strong>Perfil</strong>
                 </Link>
+
             </section>
         </aside>
     )
