@@ -1,0 +1,27 @@
+.conteiner {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cinza-claro);
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.campo{
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.botao{
+    background-color: var(--roxo-escuro);
+    color: var(--cinza-claro);
+    padding: 8px;
+    border-radius: 8px;
+}
